@@ -32,3 +32,19 @@ Cheat sheet for tmux
 | select pane | `^b + arrow_key` |
 | resize pane | `^b + <M-arrow_key>` |
 
+Fix vim in tmux color problem
+-----------------------------
+
+* Try 
+  * add `export TERM=xterm-256color` in `~/.bashrc`
+  * add `set t_ut=` in `~/.vimrc`
+  * add `setw -g xterm-keys on` and  `set -g default-terminal "screen-256color"` in `~/.tmux.conf`
+
+Reference
+---------
+
+* [Fixing Vim's Background Color Erase for 256-color tmux and GNU screen](http://sunaku.github.io/vim-256color-bce.html)
+  
+
+
+
