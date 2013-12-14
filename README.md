@@ -32,10 +32,14 @@ Cheat sheet for tmux
 | select pane | `^b + arrow_key` |
 | resize pane | `^b + <M-arrow_key>` |
 
-Fix vim in tmux color problem
------------------------------
+Color
+-----
+### color code 
+  * dump color code by [dumpTmuxColor](https://gist.github.com/wecanspeak/7956277)
+  ![tmux color code](https://raw.github.com/wecanspeak/cheat-sheet-for-tmux/master/tmux-color-code.png)
+  
 
-* Try 
+### fix vim in tmux color problem
   * add `export TERM=xterm-256color` in `~/.bashrc`
   * add `set t_ut=` in `~/.vimrc`
   * add `setw -g xterm-keys on` and  `set -g default-terminal "screen-256color"` in `~/.tmux.conf`
