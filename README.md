@@ -19,7 +19,7 @@ Cheat sheet for tmux
 | ------ | ------- |
 | create window | `^b + c` |
 | rename window | `^b + ,` |
-| navigate window | `^b + n` `^b + p` `^b + l`|
+| navigate window | `^b + n` `^b + p` `^b + l` `^b + [window-num]`|
 | detach session | `^b + d` |
 | help | `^b + ?` |
 
