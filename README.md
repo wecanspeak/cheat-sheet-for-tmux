@@ -31,6 +31,8 @@ Cheat sheet for tmux
 | delete pane | `^b + x`  `^d` (no warning) |
 | select pane | `^b + arrow_key` |
 | resize pane | `^b + <M-arrow_key>` |
+| toggle pane | `^b + space` |
+| switch pane | `^b + }` `^b + {` |
 
 Color
 -----
