@@ -34,6 +34,16 @@ Cheat sheet for tmux
 | toggle pane | `^b + space` |
 | switch pane | `^b + }` `^b + {` |
 
+
+Remap pane select be more vim-like
+
+```
+bind C-l select-pane -L
+bind C-h select-pane -R
+bind C-k select-pane -U
+bind C-j select-pane -D
+```
+
 Color
 -----
 ### color code 
